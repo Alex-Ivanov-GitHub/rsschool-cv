@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
     <link rel="stylesheet" href="./style.css">
-    <link rel="icon" href="./assets/favicon.ico">
+    <link rel="icon" href="./assets/img/favicon.ico">
 </head>
 <body>
   <header class="header">
@@ -24,28 +24,72 @@
   </header>
   <main class="main">
     <div class="container main-container">
-      <section class="section" id="profile">
-        <img src="./assets/img/avatar.jpg" alt="avatar">
-        <div>
-          <h1 class="section-title">Alexey Ivanov</h1>
+      <section class="section section-profile" id="profile">
+        <img class="section-profile-avatar" src="./assets/img/avatar.jpg" alt="avatar">
+        <div class="section-profile-title">
+          <h1 class="section-title main-title">Alexey Ivanov</h1>
           <h3 class="section-title">Junior Front-End Developer</h3>
         </div>
       </section>
       <section class="section" id="contacts">
         <h2 class="section-title">Contacts</h2>
+        <ul class="section-list">
+          <li class="section-item">
+            Location: Podolsk, Russia
+          </li>
+          <li class="section-item">
+            Email: <a href="mailto:7606737@gmail.com">7606737@gmail.com</a>
+          </li>
+          <li class="section-item">
+            GitHub: <a href="https://github.com/Alex-Ivanov-GitHub">Alex-Ivanov-GitHub</a>
+          </li>
+          <li class="section-item">
+            Telegram: <a href="https://t.me/Alexey_Ivanof">@Alexey_Ivanof</a>
+          </li>
+        </ul>
       </section>
       <section class="section" id="summary">
         <h2 class="section-title">Summary</h2>
-        <p>I work in quality assurance. I like to learn and acquire new knowledge and skills. My goal is to develop in the field of front-end development.</p>
+        <p>
+          I work in quality assurance. I like to learn and acquire new knowledge and skills.
+          Programming is my hobby, it is fascinating and interesting.
+          My goal is to develop in the field of front-end development and become a successfull specialist.
+        </p>
       </section>
       <section class="section" id="skills">
         <h2 class="section-title">Skills</h2>
+        <div>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Git, GitHub</li>
+          </ul>
+        </div>
       </section>
       <section class="section" id="code">
         <h2 class="section-title">Code</h2>
+        <pre class="pre">
+          <code>
+            function testErrorFunc(a, func) {         
+              try {
+                 func(a);   
+              } catch(ex) {
+                x = ex.name;               
+              }
+               return x;
+            }
+          </code>
+        </pre>
       </section>
       <section class="section" id="education">
         <h2 class="section-title">Education</h2>
+        <ul> 
+          <li>HTML and CSS Tutorials on the w3schools</li>
+          <li>JavaScript on the Stepik platform</li>
+          <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+        </ul>
       </section>
       <section class="section" id="languages">
         <h2 class="section-title">Languages</h2>
@@ -57,7 +101,7 @@
     </div>
   </main>
   <footer class="footer">
-    <div class="container">
+    <div class="container footer-container">
       <div>© 2023 <a href="https://github.com/Alex-Ivanov-GitHub" class="github nav-link">Alex-Ivanov-GitHub</a></div>
       <a href="https://rs.school/js/" class="rss"></a>
     </div>
