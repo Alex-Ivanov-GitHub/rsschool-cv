@@ -46,6 +46,6 @@ function testErrorFunc(a, func) {
 ## Languages
 
 - Russian - Native
-- English - B1
+- English - B2
 
 ----
